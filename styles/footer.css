@@ -1,0 +1,36 @@
+footer {
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2.25rem;
+    width: 50rem;
+    height: 2.75rem;
+    background-color: var(--color-danger);
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    color: var(--always-white);
+
+    & .alert {
+        display: flex;
+        gap: 0.5rem;
+    }
+}
+
+.show-result {
+    display: flex;
+}
+
+@media (max-width: 1482px) {
+    footer {
+        display: none;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0.75rem 0.5rem;
+        width: 20.3rem;
+        height: 2.75rem;
+    }
+
+    & .alert {
+        gap: 0.5rem;
+    }
+}

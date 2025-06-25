@@ -11,3 +11,62 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+:root {
+    --bg-color-primary: #F4F5FB;
+    --bg-color-secondary: #FFFFFF;
+
+    --color-brand: #CA3884;
+    --color-brand-hover: #A52C6B;
+    --color-danger: #C93847;
+
+    --content-primary: #080B12;
+    --content-secondary: #374151;
+    --content-tertiary: #9CA3AF;
+
+    --always-white: #FFFFFF;
+
+    --border-primary: #D1D5DB;
+    --border-hover: #B9C2D0;
+
+    --ff-sans: 'Inter', system-ui, sans-serif;
+
+    /* Font Weights */
+    --fw-medium: 500;
+    --fw-semibold: 600;
+    --fw-bold: 700;
+
+    /* Title */
+    --fs-title: 1.5rem;
+    --lh-title: 2rem;
+    --fw-title: var(--fw-bold);
+
+    /* Label */
+    --fs-label: 1rem;
+    --lh-label: 1.25rem;
+    --fw-label: var(--fw-semibold);
+
+    /* Paragraph */
+    --fs-paragraph: 1rem;
+    --lh-paragraph: 1.25rem;
+    --fw-paragraph: var(--fw-medium);
+
+    /* Link */
+    --fs-link: 0.875rem;
+    --lh-link: 1rem;
+    --fw-link: var(--fw-medium);
+}
+
+html {
+    background-color: var(--bg-color-primary); ;
+    font-family: var(--ff-sans);
+}
+
+h1 {
+    font-size: var(--fs-title);
+    line-height: var(--lh-title);
+    font-weight: var(--fw-title);
+    color: var(--content-primary);
+}
+
+
+

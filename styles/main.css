@@ -1,0 +1,41 @@
+main {
+    display: flex;
+    flex-direction: column;
+    margin-left: 23rem;
+
+    & h1 {
+    margin-bottom: 2.75rem;
+    }
+}
+
+.back-button {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 8.25rem;
+    margin-bottom: 0.6rem;
+
+    & a {
+        text-decoration: none;
+    }
+
+    & span {
+        font: var(--fs-link);
+        color: var(--color-brand);
+    }
+
+}
+
+
+@media (max-width: 1482px) {
+    main {
+        margin-left: 2rem;
+    }
+
+    .back-button {
+        display: flex;
+        align-items: center;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }
+}

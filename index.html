@@ -7,12 +7,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/index.css">
-    
+
     <title>Lista de Compras</title>
 
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    
-</body>
+    <header>
+        <div class="container">
+            <a href="#">
+                <img src="./assets/logo.svg" alt="Logo">
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <div class="back-button">        
+            <a href="#">
+                <img src="./assets/linkbutton.svg" alt="icon" class="icon">
+                <span>Voltar</span>
+            </a>
+        </div>
+        <h1>Compras da semana</h1>
+
+    <form id="form">
+        <input type="text" name="item" id="item" placeholder="Adicione um novo item" required />
+        <button type="submit">Adicionar item</button>
+    </form>
+
+        <p id="mensagem-vazia">A lista está vazia.</p>
+            <ul id="list" style="display: none;">
+            </ul>
+
+            <footer>
+                <div class="alert">
+                    <img src="./assets/alert.svg" alt="icon">
+                    <span>O item foi removido da lista</span>
+                </div>
+               <img src="./assets/delete.svg" alt="icon" id="closet" onclick="closet()">
+        </footer> 
+    </main>
+        <script src="./script.js"></script>
+    </body>
 </html>

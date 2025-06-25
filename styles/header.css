@@ -1,0 +1,15 @@
+header {
+    & a:first-child {
+        display: flex;
+        justify-content: center;
+        margin-top: 1.5rem;
+    }
+}
+
+@media (max-width: 1482px) {
+    header {
+        & a:first-child {
+            display: none;
+        }
+    }
+}
